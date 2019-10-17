@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/memberInfo"
+            android:textSize="36sp"/>
+
+        <ImageView
+            android:id="@+id/ivMemberImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/default_person"/>
+
+        <TextView
+            android:id="@+id/tvMemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_topbottom_margin"
+            android:text="@string/memName"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvMemBirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_topbottom_margin"
+            android:text="@string/memBirth"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvMemEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_topbottom_margin"
+            android:text="@string/memEmail"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvMemTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_topbottom_margin"
+            android:text="@string/memTel"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvMemAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_topbottom_margin"
+            android:text="@string/memAddr"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvMemSex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_topbottom_margin"
+            android:text="@string/memSex"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvMemSkill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_topbottom_margin"
+            android:text="@string/memSkill"
+            android:textSize="16sp"/>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_roomType"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_topbottom_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="@string/location"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="@string/checkin"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnCheckinDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/changeTime"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="@string/checkout"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnCheckoutDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/changeTime"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_topbottom_margin"
+        android:text="@string/search" />
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvBraName"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/activity_topbottom_margin"-->
+            <!--android:layout_marginBottom="@dimen/activity_topbottom_margin"-->
+            <!--android:textSize="16sp"-->
+            <!--android:layout_gravity="start"-->
+            <!--tools:text="分店" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvDate"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/activity_topbottom_margin"-->
+            <!--android:layout_marginBottom="@dimen/activity_topbottom_margin"-->
+            <!--android:layout_gravity="end"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:textSize="16sp"-->
+            <!--tools:text="2018-12-15～2018-12-30" />-->
+
+    <!--</RelativeLayout>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

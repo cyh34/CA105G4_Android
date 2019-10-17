@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <!-- 側邊欄_內容 -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_nav_home_24px"
+            android:title="@string/nav_home"/>
+
+        <item
+            android:id="@+id/nav_getCoupon"
+            android:icon="@drawable/ic_nav_coupon_24px"
+            android:title="@string/nav_getCoupon" />
+
+    </group>
+
+    <item android:title="@string/member">
+        <menu>
+            <item
+                android:id="@+id/nav_member"
+                android:icon="@drawable/ic_nav_member_24px"
+                android:title="@string/nav_member"/>
+
+            <item
+                android:id="@+id/nav_collect_coupon"
+                android:icon="@drawable/ic_nav_coupon_24px"
+                android:title="@string/nav_collectCoupon"/>
+
+            <!--<item-->
+                <!--android:id="@+id/nav_collectRoomType"-->
+                <!--android:icon="@drawable/ic_nav_favorite_24px"-->
+                <!--android:title="@string/nav_collectRoomType"/>-->
+
+            <!--<item-->
+                <!--android:id="@+id/nav_orderHistory"-->
+                <!--android:icon="@drawable/ic_nav_order_history_24px"-->
+                <!--android:title="@string/nav_orderHistory"/>-->
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_nav_logout_24px"
+                android:title="@string/nav_logout"/>
+        </menu>
+    </item>
+
+</menu>

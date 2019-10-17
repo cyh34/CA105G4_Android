@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 標題 -->
+    <string name="app_name">翔太山莊</string>
+    <string name="homePage">房型搜尋</string>
+    <string name="member">會員</string>
+    <string name="coupon">優惠券</string>
+    <string name="collectRoomType">收藏房型</string>
+    <string name="orderHistory">訂單紀錄</string>
+    <string name="map">附近地標</string>
+
+    <!-- toolbar -->
+    <string name="toolbar_search">搜尋</string>
+    <string name="toolbar_map">附近地標</string>
+
+    <!-- tabLayout -->
+    <string name="tabLayout_roomType">房型</string>
+    <string name="tabLayout_coupon">優惠券</string>
+
+    <!-- 側邊欄 -->
+    <string name="nav_home">首頁</string>
+    <string name="nav_member">會員資料</string>
+    <string name="nav_getCoupon">領取優惠券</string>
+    <string name="nav_collectCoupon">查看收藏優惠券</string>
+    <string name="nav_collectRoomType">收藏房型</string>
+    <string name="nav_orderHistory">訂單紀錄</string>
+    <string name="nav_logout">登出</string>
+    <string name="navigation_drawer_open">開啟側邊欄</string>
+    <string name="navigation_drawer_close">關閉側邊欄</string>
+
+    <!-- Toast -->
+    <string name="msg_LoginSuccess">登入成功</string>
+    <string name="msg_LoginError">登入錯誤</string>
+    <string name="msg_error">連線失敗</string>
+
+    <!-- 用在畫面上 -->
+    <!-- 登入 -->
+    <string name="account">輸入您的帳號</string>
+    <string name="password">輸入您的密碼</string>
+    <string name="saveInfo">儲存資料</string>
+    <string name="submit">送出</string>
+    <string name="tvName">姓名：</string>
+    <string name="tvPhone">電話號碼：</string>
+    <string name="dataSave">資料已儲存</string>
+
+    <!-- 首頁 -->
+    <string name="search">搜尋</string>
+    <string name="location">分店：</string>
+    <string name="checkin">入住日期：</string>
+    <string name="checkout">退房日期：</string>
+    <string name="changeTime">請選擇時間</string>
+    <string name="result">結果：</string>
+
+    <!-- 房型搜尋 -->
+    <string name="rt_name">房型名稱</string>
+    <string name="rt_intro">房型介紹</string>
+    <string name="rt_quantity">剩餘空房：</string>
+    <string name="rt_holidayPrice">定價：</string>
+    <string name="rt_more">查看詳情</string>
+
+    <!-- 查看詳情 -->
+    <string name="roomTypeInfo">房間資訊</string>
+    <string name="roomTypeName">房型名稱：</string>
+    <string name="roomTypeIntro">房型介紹：</string>
+    <string name="roomTypePrice">定價：</string>
+    <string name="roomTypeRes">訂房</string>
+
+    <!-- 訂單 => (分店) 會員姓名 (訂單種類) 入住人數 付款方式 (入住日期) (退房日期) -->
+    <string name="order">訂單</string>
+    <string name="tvOdcheckin">入住日期：</string>
+    <string name="tvOdcheckout">退房日期：</string>
+    <string name="orderBranch">分店名稱：</string>
+    <string name="odMemName">會員姓名：</string>
+    <string name="odNumOfGuest">入住人數：</string>
+    <string name="odPayment">付款方式：</string>
+    <!-- 訂單明細 -->
+    <string name="orderDetail">訂單明細</string>
+    <string name="addOrderDetail">下一步, 新增訂單明細</string>
+    <string name="odSelectRoomType">選擇房型：</string>
+    <string name="odNumOfRooms">房間數量：</string>
+    <string name="odExtraBed">加床需求：</string>
+    <string name="orderSubmit">送出訂單</string>
+    <string name="orderDetailOK">確定送出</string>
+    <!-- Dialog -->
+    <string name="tv_dialog_Ok">送出訂單</string>
+    <string name="btn_dialog_submit">確定</string>
+    <string name="btn_dialog_cancel">取消</string>
+
+    <!-- 最終訂單頁面 -->
+    <string name="final_ordersId">訂單編號</string>
+    <string name="final_memName">會員姓名</string>
+    <string name="final_braName">分店名稱</string>
+    <string name="final_rooms">房間數量</string>
+    <string name="final_checkin">入住日期</string>
+    <string name="final_checkout">退房日其</string>
+    <string name="final_amount">訂單總金額</string>
+    <string name="final_bond">訂金</string>
+    <string name="returnHome">返回首頁</string>
+
+    <!-- 優惠券 -->
+    <string name="cpn_discount">折100元</string>
+    <string name="cpn_quantity">剩餘數量：</string>
+    <string name="cpn_received">已領取</string>
+    <string name="cpn_finished">已發完</string>
+    <string name="cpn_used">已使用</string>
+
+    <!-- 會員資料 -->
+    <string name="memberInfo">會員資訊</string>
+    <string name="memName">姓名：</string>
+    <string name="memBirth">生日：</string>
+    <string name="memEmail">信箱：</string>
+    <string name="memTel">電話：</string>
+    <string name="memAddr">地址：</string>
+    <string name="memSex">性別：</string>
+    <string name="memSkill">技能：</string>
+
+</resources>

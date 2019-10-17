@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    card_view:cardBackgroundColor="#e9ffe4"
+    card_view:cardCornerRadius="10dp" >
+
+    <!--layout_marginBottom 卡片間的距離-->
+    <!--cardBackgroundColor 卡片顏色-->
+    <!--cardCornerRadius    設定卡片邊角弧度-->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/ivCpnImage"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/default_image"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toStartOf="@+id/tvCpnQuantity"
+            card_view:layout_constraintHorizontal_bias="0.733"
+            card_view:layout_constraintStart_toStartOf="@+id/tvState"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/tvCpnDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:textSize="16sp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="@+id/tvState"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.275"
+            tools:text="@string/cpn_discount"/>
+
+        <TextView
+            android:id="@+id/tvCpnQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:textSize="16sp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="@+id/tvState"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.783"
+            tools:text="@string/cpn_quantity"/>
+
+        <TextView
+            android:id="@+id/tvState"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:background="#999999aa"
+            tools:text="@string/cpn_received" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
+
+
+
+    <!--<ImageView-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:scaleType="centerCrop" />-->
+
+    <!--<TextView-->
+        <!--android:fontFamily="sans-serif-medium"-->
+        <!--android:gravity="right|bottom"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#fff832"-->
+        <!--android:textSize="16sp" />-->
+
+<!--android:orientation="vertical"-->
+<!--card_view:cardCornerRadius="4dp"-->
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#f8f9cd"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:orientation="vertical"-->
+
+    <!--<TextView-->
+        <!--android:text="Android version name"-->
+        <!--android:textColor="@color/primary_text_default_material_light"-->
+        <!--android:textSize="@dimen/abc_text_size_subhead_material" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvDate"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="3dp"-->
+        <!--android:text="Test"-->
+        <!--android:textColor="@color/secondary_text_default_material_light"-->
+        <!--android:textSize="@dimen/abc_text_size_caption_material" />-->

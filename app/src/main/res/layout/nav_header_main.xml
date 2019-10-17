@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 側邊欄_標頭 -->
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height" >
+
+    <ImageView
+        android:id="@+id/ivNavBackgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/navHeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_leftright_margin"
+        android:paddingTop="@dimen/activity_topbottom_margin"
+        android:paddingRight="@dimen/activity_leftright_margin"
+        android:paddingBottom="@dimen/activity_topbottom_margin" >
+
+        <TextView
+            android:id="@+id/tvMemberName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            tools:text="陳鈺翔" />
+
+        <ImageView
+            android:id="@+id/ivNavMemberImage"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

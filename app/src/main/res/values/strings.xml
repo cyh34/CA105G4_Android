@@ -1,0 +1,116 @@
+
+<resources>
+    <!-- 標題 -->
+    <string name="app_name">翔太山莊</string>
+    <string name="homePage">Home</string>
+    <string name="member">Member</string>
+    <string name="coupon">Coupon</string>
+    <string name="collectRoomType">Collect RoomType</string>
+    <string name="orderHistory">Order History</string>
+    <string name="map">Map Search</string>
+
+    <!-- toolbar -->
+    <string name="toolbar_search">Search</string>
+    <string name="toolbar_map">Google Maps</string>
+
+    <!-- tabLayout -->
+    <string name="tabLayout_roomType">RoomType</string>
+    <string name="tabLayout_coupon">Coupon</string>
+
+    <!-- 側邊欄 -->
+    <string name="nav_home">Home</string>
+    <string name="nav_member">Member</string>
+    <string name="nav_getCoupon">Get Coupon</string>
+    <string name="nav_collectCoupon">Collect Coupon</string>
+    <string name="nav_collectRoomType">Collect Room Type</string>
+    <string name="nav_orderHistory">Order History</string>
+    <string name="nav_logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Toast -->
+    <string name="msg_LoginSuccess">Login Success</string>
+    <string name="msg_LoginError">Login Error</string>
+    <string name="msg_error">Connection Error</string>
+
+    <!-- 用在畫面上 -->
+    <!-- 登入 -->
+    <string name="account">input your name here</string>
+    <string name="password">input your phone here</string>
+    <string name="saveInfo">Save my information</string>
+    <string name="submit">Submit</string>
+    <string name="tvName">name：</string>
+    <string name="tvPhone">Phone Number：</string>
+    <string name="dataSave">The data is saved</string>
+
+    <!-- 首頁 -->
+    <string name="search">Search</string>
+    <string name="location">Branch: </string>
+    <string name="checkin">Check in: </string>
+    <string name="checkout">Check out: </string>
+    <string name="changeTime">ChangeTime</string>
+    <string name="result">Result: </string>
+
+    <!-- 房型搜尋 -->
+    <string name="rt_name">Room Type Name</string>
+    <string name="rt_intro">Room Type Intro</string>
+    <string name="rt_quantity">Quantity: </string>
+    <string name="rt_holidayPrice">Price: </string>
+    <string name="rt_more">more</string>
+    
+    <!-- 查看房型詳情 -->
+    <string name="roomTypeInfo">Room Type Info</string>
+    <string name="roomTypeName">Room Type Name</string>
+    <string name="roomTypeIntro">Room Type Intro: </string>
+    <string name="roomTypePrice">Price: </string>
+    <string name="roomTypeRes">Reservation</string>
+
+    <!-- 訂單 => (分店) 會員姓名 (訂單種類) 入住人數 付款方式 (入住日期) (退房日期) -->
+    <string name="order">order: </string>
+    <string name="tvOdcheckin">Checkin Date: </string>
+    <string name="tvOdcheckout">Checkout Date: </string>
+    <string name="orderBranch">Branch: </string>
+    <string name="odMemName">Member Name: </string>
+    <string name="odNumOfGuest">Number of guest: </string>
+    <string name="odPayment">Payment: </string>
+    <!-- 訂單明細 -->
+    <string name="orderDetail">Order detail: </string>
+    <string name="addOrderDetail">Next step, add order detail</string>
+    <string name="odSelectRoomType">Select room type: </string>
+    <string name="odNumOfRooms">Number of rooms: </string>
+    <string name="odExtraBed">Extra bed: </string>
+    <string name="orderSubmit">Submit</string>
+    <string name="orderDetailOK">Submit</string>
+    <!-- Dialog -->
+    <string name="tv_dialog_Ok">Submit</string>
+    <string name="btn_dialog_submit">Submit</string>
+    <string name="btn_dialog_cancel">Cancel</string>
+    <!-- 最終訂單頁面 -->
+    <string name="final_ordersId">OrdersId:</string>
+    <string name="final_memName">Member Name:</string>
+    <string name="final_braName">Branch Name:</string>
+    <string name="final_rooms">Rooms:</string>
+    <string name="final_checkin">Check in:</string>
+    <string name="final_checkout">Check out:</string>
+    <string name="final_amount">Amount</string>
+    <string name="final_bond">Bond</string>
+    <string name="returnHome">Return Home</string>
+
+    <!-- 優惠券 -->
+    <string name="cpn_discount">Discount</string>
+    <string name="cpn_quantity">Quantity: </string>
+    <string name="cpn_received">Received</string>
+    <string name="cpn_finished">Finished</string>
+    <string name="cpn_used">Used</string>
+
+    <!-- 會員資料 -->
+    <string name="memberInfo">Member Info</string>
+    <string name="memName">Name:     </string>
+    <string name="memBirth">Birth:    </string>
+    <string name="memEmail">Email:    </string>
+    <string name="memTel">Tel:      </string>
+    <string name="memAddr">Address:  </string>
+    <string name="memSex">Sex:      </string>
+    <string name="memSkill">Skill:    </string>
+
+</resources>
